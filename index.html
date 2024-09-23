@@ -1,0 +1,43 @@
+<!-- 
+    This project was inspired from the YouTube tutorial: https://www.youtube.com/watch?v=MkESyVB4oUw
+    It was modified by me for it to work with the search PokeAPI.
+-->
+
+<!DOCTYPE html>
+<html lang="es_SV">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Pokemons</h1>
+        <h2>Developed by <a href="https://alex22sv.github.io" target="_blank">Alex22 SV</a></h2>
+        <form id="new-poke-form">
+            <input type="text" id="new-poke-input" placeholder="Which Pokemon do you want to search?">
+            <input type="submit" id="new-poke-submit" value="Search Pokemon">
+        </form>
+    </header>
+    <div id="main">
+        <section class="poke-list">
+            <h2>Pokemons</h2>
+            <div id="pokemons">
+                <!-- <div class="poke">
+                    <div class="content">
+                        <img src="./35.png" alt="">
+                        <input type="text" class="text" value="Name: ditto - ID: #132" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Editar</button>
+                        <button class="delete">Eliminar</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
