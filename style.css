@@ -155,3 +155,31 @@ input, button {
 }
 
 /* Responsive */
+@media (max-width:700px){
+    #new_pokemon_input, #new_pokemon_submit {
+        font-size: 1.0em;
+    }
+}
+@media (max-width:600px){
+    #new_pokemon_form {
+        display: flex;
+        flex-direction: column;
+    }
+    #new_pokemon_submit {
+        margin-top: 8px;
+        margin-left: 5px;
+        text-align: left;
+        padding: 8px 0;
+    }
+    #pokemons .pokemon .content .text, .pokemon .actions button {
+        padding: 0.5em;
+        font-size: 1.0em;
+    }
+    .pokemon {
+        display: flex;
+        flex-direction: column;
+    }
+    #pokemons .pokemon .actions {
+        margin-left: 1.5em;
+    }
+}
