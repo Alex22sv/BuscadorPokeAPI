@@ -43,7 +43,7 @@ header h2 {
 header h2 a {
     color: var(--light);
 }
-#new-poke-form {
+#new_pokemon_form {
     display: flex;
 }
 input, button {
@@ -52,7 +52,7 @@ input, button {
     outline: none;
     background: none;
 }
-#new-poke-input {
+#new_pokemon_input {
     flex: 1 1 0%;
     background-color: var(--darker);
     padding: 1rem;
@@ -61,10 +61,10 @@ input, button {
     color: var(--light);
     font-size: 1.25rem;
 }
-#new-poke-input::placeholder {
+#new_pokemon_input::placeholder {
     color: var(--gray);
 }
-#new-poke-submit {
+#new_pokemon_submit {
     color: var(--pink);
     font-size: 1.25rem;
     font-weight: 700;
@@ -75,10 +75,10 @@ input, button {
     cursor: pointer;
     transition: 0.4s;
 }
-#new-poke-submit:hover {
+#new_pokemon_submit:hover {
     opacity: 0.8;
 }
-#new-poke-submit:active {
+#new_pokemon_submit:active {
     opacity: 0.6;
 }
 #main {
@@ -88,16 +88,16 @@ input, button {
     width: 100%;
     margin: 0 auto;
 }
-.poke-list {
+.pokemon_list {
     padding: 1rem;
 }
-.poke-list h2 {
+.pokemon_list h2 {
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--gray);
     margin-bottom: 1rem;
 }
-#pokemons .poke {
+#pokemons .pokemon {
     display: flex;
     justify-content: space-between;
     background-color: var(--darkest);
@@ -105,26 +105,26 @@ input, button {
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
-#pokemons .poke .content {
+#pokemons .pokemon .content {
     display: flex;
     flex-direction: row;
     flex: 1 1 0%;
 }
-#pokemons .poke .content .text {
+#pokemons .pokemon .content .text {
     color: var(--light);
     font-size: 1.125rem;
     width: 100%;
     display: block;
     transition: 0.4s;
 }
-#pokemons .poke .content .text:not(:read-only) {
+#pokemons .pokemon .content .text:not(:read-only) {
     color: var(--pink);
 }
-#pokemons .poke .actions {
+#pokemons .pokemon .actions {
     display: flex;
     margin: 0 -0.5rem;
 }
-.poke .actions button {
+.pokemon .actions button {
     cursor: pointer;
     margin: 0 0.5rem;
     font-size: 1.125rem;
@@ -132,19 +132,19 @@ input, button {
     text-transform: uppercase;
     transition: 0.4s;
 }
-.poke .actions button:hover {
+.pokemon .actions button:hover {
     opacity: 0.8;
 }
-.poke .actions button:active {
+.pokemon .actions button:active {
     opacity: 0.6;
 }
-.poke .actions .edit {
+.pokemon .actions .edit {
     background-image: linear-gradient(to right, var(--pink), var(--purple));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.poke .actions .delete {
+.pokemon .actions .delete {
     color: crimson;
 }
 
@@ -154,3 +154,4 @@ input, button {
     text-align: center;
 }
 
+/* Responsive */
